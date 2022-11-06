@@ -4,7 +4,7 @@ import styles from "styles/components/home/Header.module.css";
 
 const Header = () => {
   return (
-    <header className="py-40 relative h-screen md:h-screen bg-dark grid place-content-center">
+    <header className="py-40 relative h-screen bg-dark grid place-content-center">
       <div className={styles.bgWrap}>
         <Image
         className="absolute top-0 left-0 w-full h-full opacity-30 grayscale"

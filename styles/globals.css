@@ -19,6 +19,9 @@ a {
 }
 
 .bg-gradient {
-  background: rgb(241, 255, 233);
-  background: linear-gradient(90deg, rgba(241, 255, 233, 1) 0%, rgb(233, 255, 219) 100%);
+  background: rgb(197, 255, 164);
+  background: -moz-radial-gradient(circle, rgba(197, 255, 164, 1) 0%, rgba(221, 255, 203, 1) 49%, rgba(234, 255, 223, 1) 64%, rgba(255, 255, 255, 1) 100%);
+  background: -webkit-radial-gradient(circle, rgba(197, 255, 164, 1) 0%, rgba(221, 255, 203, 1) 49%, rgba(234, 255, 223, 1) 64%, rgba(255, 255, 255, 1) 100%);
+  background: radial-gradient(circle, rgba(197, 255, 164, 1) 0%, rgba(221, 255, 203, 1) 49%, rgba(234, 255, 223, 1) 64%, rgba(255, 255, 255, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#c5ffa4", endColorstr="#ffffff", GradientType=1);
 }
